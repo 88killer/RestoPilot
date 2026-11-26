@@ -1,0 +1,18 @@
+{
+  "options": {
+    "budget": 12,
+    "max_steps": 3,
+    "threshold": 0.5,
+    "min_confidence": 0.5,
+    "context": 32
+  },
+  "device": "cuda",
+  "quality_device": "cpu",
+  "musiq_weights": "BUNDLE:AgenticIR/work/weights/musiq.pth",
+  "seed": {
+    "seed": 43,
+    "localizer": "BUNDLE:AgenticIR/runs/full_three_seed_localizers_20261029_175918/locator43/best.pt",
+    "calibration": "BUNDLE:AgenticIR/runs/full_three_seed_localizers_20261029_175918/locator43/calibration.json"
+  },
+  "feedback_config": "BUNDLE:feedback.json"
+}

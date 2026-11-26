@@ -1,0 +1,80 @@
+{
+  "swinir15": {
+    "command": [
+      "PYTHON_EXECUTABLE",
+      "BUNDLE:AgenticIR/region_ir/model_worker.py",
+      "--model",
+      "swinir15",
+      "--source",
+      "BUNDLE:AgenticIR/work/models/SwinIR",
+      "--weights",
+      "BUNDLE:AgenticIR/work/weights/swinir15.pth",
+      "--input",
+      "{input}",
+      "--output",
+      "{output}",
+      "--metadata",
+      "{metadata}"
+    ],
+    "timeout": 300
+  },
+  "swinir50": {
+    "command": [
+      "PYTHON_EXECUTABLE",
+      "BUNDLE:AgenticIR/region_ir/model_worker.py",
+      "--model",
+      "swinir50",
+      "--source",
+      "BUNDLE:AgenticIR/work/models/SwinIR",
+      "--weights",
+      "BUNDLE:AgenticIR/work/weights/swinir50.pth",
+      "--input",
+      "{input}",
+      "--output",
+      "{output}",
+      "--metadata",
+      "{metadata}"
+    ],
+    "timeout": 300
+  },
+  "restormer": {
+    "command": [
+      "PYTHON_EXECUTABLE",
+      "BUNDLE:AgenticIR/region_ir/model_worker.py",
+      "--model",
+      "restormer",
+      "--source",
+      "BUNDLE:AgenticIR/work/models/Restormer",
+      "--weights",
+      "BUNDLE:AgenticIR/work/weights/restormer_author_motion_deblurring.pt",
+      "--checkpoint-format",
+      "torchscript",
+      "--input",
+      "{input}",
+      "--output",
+      "{output}",
+      "--metadata",
+      "{metadata}"
+    ],
+    "timeout": 300
+  },
+  "fbcnn": {
+    "command": [
+      "PYTHON_EXECUTABLE",
+      "BUNDLE:AgenticIR/region_ir/model_worker.py",
+      "--model",
+      "fbcnn",
+      "--source",
+      "BUNDLE:AgenticIR/work/models/FBCNN",
+      "--weights",
+      "BUNDLE:AgenticIR/work/weights/fbcnn_color.pth",
+      "--input",
+      "{input}",
+      "--output",
+      "{output}",
+      "--metadata",
+      "{metadata}"
+    ],
+    "timeout": 300
+  }
+}

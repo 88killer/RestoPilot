@@ -1,0 +1,63 @@
+{
+  "thresholds": {
+    "min_quality_gain": 0.5,
+    "quality_tie": 0.1,
+    "min_residual_gain": 0.02,
+    "max_residual_increase": 0.0,
+    "max_color_shift": 0.03,
+    "max_normal_change": 0.01,
+    "normal_threshold": 0.1
+  },
+  "validation_balanced_accuracy": 0.7179598953792502,
+  "validation_sources": [
+    "0701",
+    "0703",
+    "0705",
+    "0706",
+    "0707",
+    "0709",
+    "0710",
+    "0712",
+    "0713",
+    "0715",
+    "0716"
+  ],
+  "samples": 136,
+  "bound_models": [
+    {
+      "seed": 42,
+      "localizer": "C:\\Users\\ASUS\\Documents\\xwechat_files\\wxid_gwktwks2qnlw12_1fc5\\msg\\file\\2026-10\\AgenticIR-Windows\\AgenticIR\\runs\\full_three_seed_localizers_20261029_175918\\locator42\\best.pt",
+      "calibration": "C:\\Users\\ASUS\\Documents\\xwechat_files\\wxid_gwktwks2qnlw12_1fc5\\msg\\file\\2026-10\\AgenticIR-Windows\\AgenticIR\\runs\\full_three_seed_localizers_20261029_175918\\locator42\\calibration.json",
+      "ranker": "C:\\Users\\ASUS\\Documents\\Codex\\2026-10-28\\c-users-asus-documents-xwechat-files\\outputs\\持续实验_20261029\\可恢复运行_20261030_093746\\balanced_paths\\run_20261030_103245\\seed42\\ranker\\ranker.npz",
+      "ranker_sha256": "2c1ee45b418e206f4a5ceecf0c0a361f7e8608bcff04646b4e8672d61af4e339",
+      "joint_paths": "C:\\Users\\ASUS\\Documents\\Codex\\2026-10-28\\c-users-asus-documents-xwechat-files\\outputs\\持续实验_20261029\\可恢复运行_20261030_093746\\balanced_paths\\run_20261030_103245\\seed42\\combined"
+    },
+    {
+      "seed": 43,
+      "localizer": "C:\\Users\\ASUS\\Documents\\xwechat_files\\wxid_gwktwks2qnlw12_1fc5\\msg\\file\\2026-10\\AgenticIR-Windows\\AgenticIR\\runs\\full_three_seed_localizers_20261029_175918\\locator43\\best.pt",
+      "calibration": "C:\\Users\\ASUS\\Documents\\xwechat_files\\wxid_gwktwks2qnlw12_1fc5\\msg\\file\\2026-10\\AgenticIR-Windows\\AgenticIR\\runs\\full_three_seed_localizers_20261029_175918\\locator43\\calibration.json",
+      "ranker": "C:\\Users\\ASUS\\Documents\\Codex\\2026-10-28\\c-users-asus-documents-xwechat-files\\outputs\\持续实验_20261029\\可恢复运行_20261030_093746\\balanced_paths\\run_20261030_103245\\seed43\\ranker\\ranker.npz",
+      "ranker_sha256": "23b4a635a7dd0338eb53edb238e930e7f15bd7d1d1a43289ea92a59c03610155",
+      "joint_paths": "C:\\Users\\ASUS\\Documents\\Codex\\2026-10-28\\c-users-asus-documents-xwechat-files\\outputs\\持续实验_20261029\\可恢复运行_20261030_093746\\balanced_paths\\run_20261030_103245\\seed43\\combined"
+    },
+    {
+      "seed": 44,
+      "localizer": "C:\\Users\\ASUS\\Documents\\Codex\\2026-10-28\\c-users-asus-documents-xwechat-files\\outputs\\持续实验_20261029\\可恢复运行_20261030_093746\\locator44\\best.pt",
+      "calibration": "C:\\Users\\ASUS\\Documents\\Codex\\2026-10-28\\c-users-asus-documents-xwechat-files\\outputs\\持续实验_20261029\\可恢复运行_20261030_093746\\locator44\\calibration.json",
+      "ranker": "C:\\Users\\ASUS\\Documents\\Codex\\2026-10-28\\c-users-asus-documents-xwechat-files\\outputs\\持续实验_20261029\\可恢复运行_20261030_093746\\balanced_paths\\run_20261030_103245\\seed44\\ranker\\ranker.npz",
+      "ranker_sha256": "7fef9094077d6e98c8c1eb3b90755445958b328377146a861f7c4ebcadbc8bfd",
+      "joint_paths": "C:\\Users\\ASUS\\Documents\\Codex\\2026-10-28\\c-users-asus-documents-xwechat-files\\outputs\\持续实验_20261029\\可恢复运行_20261030_093746\\balanced_paths\\run_20261030_103245\\seed44\\combined"
+    }
+  ],
+  "fitted_on": "predeclared FIT sources, pooled across three seeds",
+  "fit_pairs_sha256": "c53d869c74b73b96eda9bac754bbb66e193a4b9d493590b063336e8b6e7f2875",
+  "options": {
+    "budget": 12,
+    "max_steps": 3,
+    "threshold": 0.5,
+    "min_confidence": 0.5,
+    "context": 32
+  },
+  "no_check_based_selection": true,
+  "no_test_evaluation": true
+}

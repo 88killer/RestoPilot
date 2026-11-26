@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+原图/
+生成数据/
+输出结果/
+实例清单.jsonl
+data.ready
